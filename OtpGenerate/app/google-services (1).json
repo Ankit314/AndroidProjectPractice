@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "398463311352",
+    "project_id": "otpgenerate-efec9",
+    "storage_bucket": "otpgenerate-efec9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398463311352:android:afcca7ecc32c230cf1ca0d",
+        "android_client_info": {
+          "package_name": "com.example.otpgenerate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398463311352-amakeuhfkh6u687tbv89jj945905o940.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7-fD0kJMqDSfvdBFO_lDT1P7_OtN75d0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398463311352-amakeuhfkh6u687tbv89jj945905o940.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

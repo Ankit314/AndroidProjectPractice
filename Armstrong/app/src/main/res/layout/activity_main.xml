@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/teal_200">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Automorphic Number or Not"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter a number to check Automorphic Number"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <EditText
+        android:id="@+id/etNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="48dp"
+        android:hint="ENTER THE NUMBER"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="149dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black"
+        android:text="Check"
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toTopOf="@+id/String"
+        app:layout_constraintEnd_toEndOf="@+id/etNum"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="@+id/etNum"
+        app:layout_constraintTop_toBottomOf="@+id/etNum"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <EditText
+        android:id="@+id/String"
+        android:layout_width="252dp"
+        android:layout_height="60dp"
+        android:layout_margin="0dp"
+        android:ems="100"
+
+        android:hint="Enter a String"
+
+        android:inputType="textPersonName"
+        android:paddingStart="3dp"
+        android:paddingEnd="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/btnCheck"
+
+
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="@id/btnCheck"
+        app:layout_constraintTop_toBottomOf="@id/btnCheck"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/reverse"
+        android:layout_width="149dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/black"
+        android:text="reverse"
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/String"
+
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="@id/String"
+        app:layout_constraintTop_toBottomOf="@id/String"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="149dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:text="clesr"
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/reverse"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/reverse"
+        app:layout_constraintTop_toBottomOf="@id/reverse"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="354dp"
+        android:layout_height="72dp"
+
+        android:textColor="#ff00"
+        android:textSize="20sp"
+
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="@id/clear"
+
+        app:layout_constraintStart_toStartOf="@id/clear"
+        app:layout_constraintTop_toBottomOf="@id/clear"
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
